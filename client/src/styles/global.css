@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	@font-face {
+		font-family: 'alegreya-sans';
+		src: url('../assets/fonts/AlegreyaSans-Regular.ttf');
+		font-weight: 400;
+	}
+	@font-face {
+		font-family: 'alegreya-sans';
+		src: url('../assets/fonts/AlegreyaSans-Medium.ttf');
+		font-weight: 500;
+	}
+	@font-face {
+		font-family: 'alegreya-sans';
+		src: url('../assets/fonts/AlegreyaSans-Bold.ttf');
+		font-weight: 700;
+	}
+
+	html, body {
+		@apply font-AlegreyaSans leading-normal
+	}
+
+	.container {
+		@apply mx-auto px-4
+	}
+}
+
+@layer utilities {
+	.display-center { @apply flex justify-center items-center }
+	.display-center-x { @apply flex justify-center }
+	.display-center-y { @apply flex items-center }
+	.display-between { @apply flex justify-between }
+	.display-evenly { @apply flex justify-evenly }
+}

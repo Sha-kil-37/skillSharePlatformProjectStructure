@@ -1,0 +1,42 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\RokibulHasan\.yarn\releases\yarn-1.22.19.cjs add body-parser cors dotenv express express-mongo-sanitize express-rate-limit helmet hpp jsonwebtoken mongoose nodemon xss-cleancls
+
+PATH: 
+  C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\RokibulHasan\AppData\Local\Microsoft\WindowsApps;C:\Users\RokibulHasan\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\WebStorm 2023.1.2\bin;;C:\Users\RokibulHasan\AppData\Local\Programs\Hyper\resources\bin;C:\Users\RokibulHasan\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  20.11.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: F:\main_real_world_project\Task_manager_Taskq\server\package.json: Expected ',' or '}' after property value in JSON at position 217
+      at JSON.parse (<anonymous>)
+      at C:\Users\RokibulHasan\.yarn\releases\yarn-1.22.19.cjs:1104:57
+      at Generator.next (<anonymous>)
+      at step (C:\Users\RokibulHasan\.yarn\releases\yarn-1.22.19.cjs:310:30)
+      at C:\Users\RokibulHasan\.yarn\releases\yarn-1.22.19.cjs:321:13
+
+npm manifest: 
+  {
+    "name": "server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"ua
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
